@@ -1,8 +1,8 @@
 ## Recruitment Challenge
-Request 5 day weather forecast on openweathermap and display accordingly to your preferences in this case chart and simple statistic. Written in React with Typescript on frontend. 
+Request 5 day weather forecast on openweathermap and display accordingly to your preferences in this case chart with simple statistic. Written in React with Typescript on frontend. 
 
 # How to run application
-Edit file .env and to REACT_APP_API_ID your openweathermap API_ID.
+Edit file .env and add to REACT_APP_API_ID your openweathermap API_ID.
 
 `yarn`
 
