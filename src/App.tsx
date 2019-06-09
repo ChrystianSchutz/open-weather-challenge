@@ -13,7 +13,7 @@ type dataTracker = {
 
 interface WeatherState {
   cityId: number,
-  data?: dataTracker[], 
+  data: dataTracker[], 
   error?: any
 }
 
@@ -67,7 +67,6 @@ export class WeatherForecast extends Component<{}, WeatherState> {
 
   render() {
     const temperatures = this.state.data.map((day) => [day.temperatureDay,day.temperatureNight,day.temperatureMorning] ).flat()
-    console.log(this.state.data)
 
     if(this.state.error){
       return(
